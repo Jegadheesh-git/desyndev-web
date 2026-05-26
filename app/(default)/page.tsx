@@ -1,24 +1,11 @@
 export const metadata = {
-  title: "Home - Open PRO",
-  description: "Page description",
+  title: "DesynDev - Engineering-Focused Software Studio",
+  description:
+    "DesynDev builds analytics platforms, scalable applications, AI-assisted systems, and modern software engineering initiatives.",
 };
 
-import PageIllustration from "@/components/page-illustration";
-import Hero from "@/components/hero-home";
-import Workflows from "@/components/workflows";
-import Features from "@/components/features";
-import Testimonials from "@/components/testimonials";
-import Cta from "@/components/cta";
+import DesynDevHome from "@/components/desyndev-home";
 
 export default function Home() {
-  return (
-    <>
-      <PageIllustration />
-      <Hero />
-      <Workflows />
-      <Features />
-      <Testimonials />
-      <Cta />
-    </>
-  );
+  return <DesynDevHome />;
 }
